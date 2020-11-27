@@ -1,0 +1,35 @@
+h1, #contenedor {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #9b0e0e;
+}
+
+button {
+  text-decoration: none;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  background-color: #9b0e0e;
+}
+button:hover{
+  color: #9b0e0e;
+  background-color: #bc6355;
+  text-decoration: none;
+}
+
+img {
+  width: 6em;
+  height: 4em;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+fieldset {
+  width: fit-content;
+  border: none;
+  background-color: wheat;
+}
